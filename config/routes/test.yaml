@@ -1,8 +1,8 @@
-test:
-  path: /test/{age}
-  controller: App\Controller\TestController::test
-  methods: [GET, POST]
-  defaults:
-    age: 0
-  requirements:
-    age: \d+
+# test:
+#   path: /test/{age}
+#   controller: App\Controller\TestController::test
+#   methods: [GET, POST]
+#   defaults:
+#     age: 0
+#   requirements:
+#     age: \d+
